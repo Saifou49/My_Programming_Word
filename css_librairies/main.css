@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    @apply font-secondary text-[22px] text-secondary bg-gray-100 ;
+}
+
+
+
+a{
+    @apply text-[20px] hover:text-accent transition-all duration-500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    @apply font-primary text-primary;
+}
+
+.h1{
+    @apply text-[64px] lg:text-[84px] leading-none;
+}
+.h2{
+    @apply text-[50px]  leading-tight;
+}
+.h3{
+    @apply text-[25px];
+}
+.button{
+    @apply h-[75px] px-[30px] transition-all duration-300 text-white rounded-[18px] flex items-center gap-2;
+}
+
+.button-primary{
+    @apply bg-primary hover:bg-primary-hover;
+}
+.button-accent{
+    @apply bg-accent hover:bg-accent-hover;
+}
+
+.nav_is_open{
+    @apply h-[350px] p-6;
+}
+
+/* 
+                        <!-- Slide_2 -->
+                        <div class="swiper-slider">
+                            <!-- item -->
+                            <div class="testimonial__item w-full max-[370px] h-[340px] 
+                                        bg-white flex flex-col justify-center items-center p-9 mx-auto
+                                        rounded-[30px]">
+                                <div class="flex gap-4 mb-6">
+                                    <img src="assets/testimonial/02.png" alt="">
+                                    <div>
+                                        <h3>Fatoumata Diallo</h3>
+                                        <div>Kankan, Guinea-Conakry</div>
+                                    </div>
+                                </div>
+                                <p>
+                                    She is one of my customers.She 
+                                    was very happy with my product.
+                                </p>
+                            </div>
+                            <!-- item -->
+                        </div>
+                        <!-- Slide_2 -->
+
+                                                <!-- Slide_2 -->
+                                                <div class="swiper-slider">
+                                                    <!-- item -->
+                                                    <div class="testimonial__item w-full max-[370px] h-[340px] 
+                                                                bg-white flex flex-col justify-center items-center p-9 mx-auto
+                                                                rounded-[30px]">
+                                                        <div class="flex gap-4 mb-6">
+                                                            <img src="assets/testimonial/02.png" alt="">
+                                                            <div>
+                                                                <h3>Fatoumata Diallo</h3>
+                                                                <div>Kankan, Guinea-Conakry</div>
+                                                            </div>
+                                                        </div>
+                                                        <p>
+                                                            She is one of my customers.She 
+                                                            was very happy with my product.
+                                                        </p>
+                                                    </div>
+                                                    <!-- item -->
+                                                </div>
+                                                <!-- Slide_2 -->
+*/

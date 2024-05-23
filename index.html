@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/output.css">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.min.css">
+    <!-- ICONS -->
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- FONT -->
+
+    <!-- The css of the swiper -->
+    <link rel="stylesheet" href="./css_librairies/swiper-bundle.min.css">
+    <!-- The css of the swiper -->
+
+
+    <title>My programming word</title>
+</head>
+<body>
+    <header class="z-30 sticky top-0 h-[90px] shadow-xl flex items-center bg-white">
+        <div class="container mx-auto flex justify-between items-center ">
+            <!-- The logo -->
+            <a href="#">
+                <img src="assets/logo.svg" alt="">
+            </a>
+            <!-- The logo -->
+
+            <!-- The navbar -->
+            <nav>
+                <ul class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t 
+                            top-[90px] left-0 right-0 flex  flex-col gap-4 
+                            lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none
+                            lg:h-full transition-all duration-500" id="ul_In_Nav">
+                    <!-- This was my solution for the nav menu: xl:flex items-center gap-10 pr-5 sm:hidden -->
+                    <li ><a href="#home" >Home</a></li>
+                    <li><a href="#aboutMe">About Me</a></li>
+                    <li><a href="#testimonial">Testimonials</a></li>
+                    <li><a href="#myWork">My Work</a></li>
+                    <li><a href="#newsAboutMe">News about me</a></li>
+                    <li><a href="#contactMe">Contacts</a></li>
+                </ul>
+            </nav>
+            <!-- The navbar -->
+
+            <!-- The burger Menu -->
+            <div class="flex items-center justify-center lg:hidden right-0 " id="menu_button_header">
+                <i class="ri-menu-line"></i>
+            </div>
+            <!-- The burger Menu -->
+            
+        </div>
+    </header>
+
+    <!-- Page wrapper -->
+    <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
+        <!-- grid image -->
+        <div class="xl:bg-grid xl:bg-center xl:bg-repeat-y h-full fixed 
+                    top-0 left-0 right-0 z-10">
+            
+        </div>
+        <!-- grid image -->
+
+        <!-- 
+            {
+  "name": "modern_landing_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build css/main.css -o public/css/output.css",
+    "watcher" : "tailwindcss build css/main.css -o public/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
+         -->
+
+
+
+        <!-- Hero -->
+        <section class="hero h-[648px] xl:h-[840px] bg-hero bg-center 
+                        lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px]
+                        relative z-20" id="home">
+            <div class="container mx-auto h-full flex items-center justify-center xl:justify-start">
+                <!-- Text -->
+                <div class="hero__text w-[567px] flex flex-col 
+                            items-center text-center xl:text-left lg:items-start">
+                    <h1 class="h1 mb-8">Mamadou Saifou Diallo</h1>
+                    <p class="mb-8">
+                        I'm coming from the programming language <span class="font-bold">Java</span>. 
+                        Now I'm a font-end developper. The front-end needs a lot of concentration 
+                        and you have to be good at design
+                    </p>
+
+                    <button class="button button-primary mx-auto xl:mx-0">
+                        Let me show you more
+                        <i class="ri-arrow-right-line text-accent"></i>
+                    </button>
+                </div>
+                <!-- Text -->
+            </div>
+
+
+
+        </section> 
+        <!-- Hero -->
+
+        <!-- Steps -->
+        <section class="steps mt-[80px] xl:mt-[200px] relative z-20">
+            <div class="container mx-auto">
+                <!-- The grid items -->
+                <div class="steps__step grid grid-cols-1 gap-12 xl:grid-cols-3">
+                    <!-- Step 1 -->
+                    <div class="steps__step text-center">
+                        <div class="mb-4">
+                            <i class="ri-compasses-2-fill text-5xl text-accent"></i>
+                        </div>
+                        <h3 class="mb-5">Project Planning</h3>
+                        <p class="mb-5 max-w-md mx-auto">
+                            When you give me a project, i will take my time to plan it first.
+                            After planing it I will design it.
+                            
+                        </p>
+                        <a href="#" class="font-medium flex justify-center  gap-2">
+                            Read more
+                            <i class="ri-arrow-right-line text-accent"></i>
+                        </a>
+                    </div>
+                    <!-- Step 1 -->
+
+                    <!-- Step 2 -->
+                    <div class="steps__step text-center">
+                        <div class="mb-4">
+                            <i class="ri-magic-line text-5xl text-accent"></i>
+                        </div>
+                        <h3 class="mb-5">Ganing Materials</h3>
+                        <p class="mb-5 max-w-md mx-auto">
+                            After disgning it, I will look after the needed resources.
+
+                        </p>
+                        <a href="#" class="font-medium flex justify-center  gap-2">
+                            Read more
+                            <i class="ri-arrow-right-line text-accent"></i>
+                        </a>
+                    </div>
+                    <!-- Step 2 -->
+
+                    <!-- Step 3 -->
+                    <div class="steps__step text-center">
+                        <div class="mb-4">
+                            <i class="ri-tools-line text-5xl text-accent"></i>
+                        </div>
+                        <h3 class="mb-5">Project Execution</h3>
+                        <p class="mb-5 max-w-md mx-auto">
+                            After planing, designing the project,
+                            now it's time to start coding the project.
+                        </p>
+                        <a href="#" class="font-medium flex justify-center  gap-2">
+                            Read more
+                            <i class="ri-arrow-right-line text-accent"></i>
+                        </a>
+                    </div>
+                    <!-- Step 3 -->
+
+                </div>
+                <!-- The grid items -->
+            </div>
+
+        </section>
+        <!-- Steps -->
+
+        <!-- About me section -->
+        <section class="about_me mt-[80px] xl:mt-[200px] relative z-20 " id="aboutMe">
+            <div class="container mx-auto xl:px-0">
+                <div class="flex flex-col xl:flex-row text-center xl:text-left 
+                            justify-between items-center gap-8 xl:gap-[74px]">
+                    <!-- Text -->
+                    <div class="firstTextWithTheKitchen flex-1 order-2 xl:order-none
+                                max-w-xl xl:max-w-[410px] flex flex-col items-center
+                                xl:items-start gap-8">
+                        <h2 class="h2">The kitchen where I programme</h2>
+                        <p>
+                            When I have a lot of work mosly, my kitchen become the place 
+                            where I like coding.
+                            Coding in the kitchen give me a lot of inspiration 
+                        </p>
+
+                        <!-- The phone number -->
+                        <div class="flex items-center justify-center xl:justify-start gap-4">
+                            <div class="bg-accent/15 h-[93px] w-[93px] rounded-full grid place-content-center" >
+                                <i class="ri-phone-fill  text-accent text-4xl"></i>
+                            </div>
+                            <div class="text-left">
+                                <div>
+                                    +49 0123 456789
+                                </div>
+                                <div>
+                                    Call me anytime for more informations
+                                </div>
+                            </div>
+                        </div>
+                        <!-- The phone number -->
+
+                        <!-- The button -->
+                        <button class="button button-primary">
+                            Get A Free Website
+                            <i class="ri-arrow-right-line text-accent"></i>
+                        </button>
+                        <!-- The button -->
+
+
+                    </div>
+                    <!-- Text -->
+
+                    <!-- image -->
+                    <div class="about_me__image max-w-[453px] order-1 xl:order-none
+                                mx-auto xl:max-w-none xl:mx-0 ">
+                        <img src="assets/about/img.png" alt="">
+                    </div>
+                    <!-- image -->
+
+                </div>
+            </div>
+
+        </section>
+        <!-- About me section -->
+
+        <!-- Testimonial Section  bg-accent-secondary-->
+        <section class="testimonial mt-[80px] xl:mt-[200px] relative z-20" 
+                    id="testimonial">
+            <div class="testimonial__bg container mx-auto
+                         bg-accent-secondary rounded-[70px] px-6 
+                         flex flex-col items-center text-center
+                         py-20">
+                         <h2 class="testimonial__title h2 ">My longtime customers and friends</h2>
+                <!-- Slider -->
+                <div class="w-full">
+                    <div class="testimonial__slider swiper h-[400px]">
+                        <div class="swiper-wrapper">
+                            <!-- Slide_1 -->
+                            <div class="swiper-slide my-4">
+                                <!-- item -->
+                                <div class="testimonial__item bg-white w-full
+                                    max-w-[370px] h-[340px] rounded-[30px]
+                                    flex flex-col justify-center mx-auto p-9 ">
+                                    <div class="flex gap-4 mb-6">
+                                        <img src="assets/testimonial/01.png" alt="">
+                                        <div>
+                                            <h3>Fatoumata Diallo</h3>
+                                            <div>Kankan, Guinea-Conakry</div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        She is one of my customers.She 
+                                        was very happy with my product.
+                                        
+                                    </p>
+                                    
+                                </div>
+                                <!-- item -->
+                            </div>
+                            <!-- Slide_1 -->
+                            <!-- Slide_2 -->
+                            <div class="swiper-slide my-4">
+                                <!-- item -->
+                                <div class="testimonial__item bg-white w-full
+                                    max-w-[370px] h-[340px] rounded-[30px]
+                                    flex flex-col justify-center mx-auto p-9 ">
+                                    <div class="flex gap-4 mb-6">
+                                        <img src="assets/testimonial/02.png" alt="">
+                                        <div>
+                                            <h3>Bintou Bah</h3>
+                                            <div>Mamou, Guinea-Conakry</div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Bintou was one of my first customers.
+                                        She helped me a lof in the past.
+                                        
+                                    </p>
+                                    
+                                </div>
+                                <!-- item -->
+                            </div>
+                            <!-- Slide_2 -->
+                            <!-- Slide_3 -->
+                            <div class="swiper-slide my-4">
+                                <!-- item -->
+                                <div class="testimonial__item bg-white w-full
+                                    max-w-[370px] h-[340px] rounded-[30px]
+                                    flex flex-col justify-center mx-auto p-9 ">
+                                    <div class="flex gap-4 mb-6">
+                                        <img src="assets/testimonial/03.png" alt="">
+                                        <div>
+                                            <h3>Mamadou Sow </h3>
+                                            <div>Labé, Guinea-Conakry</div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        He is more than a friend. He is now 
+                                        my family member. He supported me When
+                                        I was about to drop-out
+                                        
+                                    </p>
+                                    
+                                </div>
+                                <!-- item -->
+                            </div>
+                            <!-- Slide_3 -->
+
+                            <!-- Slide_4 -->
+                            <div class="swiper-slide my-4">
+                                <!-- item -->
+                                <div class="testimonial__item bg-white w-full
+                                    max-w-[370px] h-[340px] rounded-[30px]
+                                    flex flex-col justify-center mx-auto p-9 ">
+                                    <div class="flex gap-4 mb-6">
+                                        <img src="assets/testimonial/04.png" alt="">
+                                        <div>
+                                            <h3>Therère Kamano </h3>
+                                            <div>Macenta, Guinea-Conakry</div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        My besty Therère! I call her so. She was my besty from the school time.
+                                        And I like her so much. She supported me a lot
+                                        
+                                    </p>
+                                    
+                                </div>
+                                <!-- item -->
+                            </div>
+                            <!-- Slide_4 -->
+
+
+                        </div>
+                            <!-- Swiper pagination -->
+                            <div class="swiper-pagination">
+                            </div>
+                            <!-- Swiper pagination -->
+
+                            <!-- The navigation arrow for the swiper -->
+                            <div class="swiper-button-next
+                                hover:text-accent transition 
+                                ease-in duration-200">
+                            </div>
+                            <div class="swiper-button-prev
+                                hover:text-accent transition 
+                                ease-in duration-200">
+                            </div>
+                            <!-- The navigation arrow for the swiper -->
+                    </div> 
+                </div>
+                <!-- Slider -->
+            </div>
+        
+        </section>
+        <!-- Testimonials Section-->
+
+        <!-- The brand section -->
+        <section class="brand mt-[80px] xl:mt-[200px] relative z-20"">
+            <div class="divForLogos container mx-auto ">
+                <div class=" flex flex-col xl:flex-row gap-12 items-center justify-between ">
+                    <img class="brands_image" src="assets/brands/01.svg" alt="">
+                    <img class="brands_image" src="assets/brands/02.svg" alt="">
+                    <img class="brands_image" src="assets/brands/03.svg" alt="">
+                    <img class="brands_image" src="assets/brands/04.svg" alt="">
+                    <img class="brands_image" src="assets/brands/05.svg" alt="">
+                </div>
+            </div>
+
+        </section>
+        <!-- The brand section -->
+
+        <!-- My work -->
+        <section class="work mt-[80px] xl:mt-[200px] relative z-20" id="myWork">
+            <div class="work_main_container container mx-auto xl:px-0">
+                <div class="text-center mb-24">
+                    <h2  class="work__title h2 mb-4">Follow my work places and my projects</h2>
+                    <p work__subtitle max-w-3xl mx-auto>
+                        Those work places are wunderfull. And I will be pleased to 
+                        show them to you.
+                    </p>
+                </div>
+                <!-- grid -->
+                <div class="work__grid grid grid-cols-1 xl:grid-cols-2 gap-x-[104px]
+                            gap-y-[56px]" >
+                    <!-- work_1 -->
+                    <div class="grid_1 w-full max-w-[548px] h-full mx-auto">
+                        <img src="assets/work/01.png" alt="">
+                        <div class="flex justify-between items-center w-full
+                                    py-5">
+                            <div>
+                                <h3 class="h3">The modern coding place</h3>
+                                <p>Decor and the achitecture are perfect</p>
+                            </div>
+                            <button class="bg-accent-secondary hover:bg-accent/20 
+                                            w-[70px] h-[70px] rounded-full">
+                                <i class="ri-arrow-right-wide-line text-3xl text-primary pl-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- work_1 -->
+
+                    <!-- work_2 -->
+                    <div class="grid_2 w-full max-w-[548px] h-full mx-auto">
+                        <img src="assets/work/02.png" alt="">
+                        <div class="flex justify-between items-center w-full
+                                    py-5">
+                            <div>
+                                <h3 class="h3">The modern coding place</h3>
+                                <p>Decor and the achitecture are perfect</p>
+                            </div>
+                            <button class="bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] 
+                                            rounded-full">
+                                <i class="ri-arrow-right-wide-line text-3xl text-primary pl-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- work_2 -->
+
+                    <!-- work_3 -->
+                    <div class="grid_3 w-full max-w-[548px] h-full mx-auto">
+                        <img src="assets/work/03.png" alt="">
+                        <div class="flex justify-between items-center w-full
+                                    py-5">
+                            <div>
+                                <h3 class="h3">The modern coding place</h3>
+                                <p>Decor and the achitecture are perfect</p>
+                            </div>
+                            <button class="bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] 
+                                            rounded-full">
+                                <i class="ri-arrow-right-wide-line text-3xl text-primary pl-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- work_3 -->
+
+                    <!-- work_4 -->
+                    <div class="grid_4 w-full max-w-[548px] h-full mx-auto">
+                        <img src="assets/work/04.png" alt="">
+                        <div class="flex justify-between items-center w-full
+                                    py-5">
+                            <div>
+                                <h3 class="h3">The modern coding place</h3>
+                                <p>Decor and the achitecture are perfect</p>
+                            </div>
+                            <button class="bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] 
+                                            rounded-full">
+                                <i class="ri-arrow-right-wide-line text-3xl text-primary pl-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- work_4 -->
+
+  
+
+                </div>
+                <!-- grid -->
+               
+            </div>
+        </section>
+        <!-- My work -->
+
+        <!-- stats -->
+        <section class="stats mt-[80px] xl:mt-[200px] relative z-20 bg-accent-secondary
+                        py-[80px] xl:py-[150px]">
+            <div class="divForStats container mx-auto">
+                <!-- grids -->
+                <div class="grid grid-cols-1 xl:grid-cols-4 gap-12">
+                    <!-- grid item_1 -->
+                    <div class="stats_item text-center xl:border-r xl:border-r-accent">
+                        <h3 class="h1 font-primary text-accent">3</h3>
+                        <p>Years of Experience</p>
+                    </div>
+                    <!-- grid item_1 -->
+
+                    <!-- grid item_2 -->
+                    <div class="stats_item text-center xl:border-r xl:border-r-accent">
+                        <h3 class="h1 font-primary text-accent">10</h3>
+                        <p>Projects executed</p>
+                    </div>
+                    <!-- grid item_2 -->
+
+                    <!-- grid item_3 -->
+                    <div class="stats_item text-center xl:border-r xl:border-r-accent">
+                        <h3 class="h1 font-primary text-accent">20</h3>
+                        <p>Projects in execution</p>
+                    </div>
+                    <!-- grid item_3 -->
+                    <!-- grid item_1 -->
+                    <div class="stats_item text-center ">
+                        <h3 class="h1 font-primary text-accent">10</h3>
+                        <p>Happy customers</p>
+                    </div>
+                    <!-- grid item_1 -->
+
+                </div>
+                <!-- grids -->
+                
+            </div>
+
+        </section>
+        <!-- stats -->
+
+        <!-- News -->
+        <section class="news mt-[80px] xl:mt-[200px] relative z-20" id="newsAboutMe">
+            <div class="container mx-auto ">
+                <div class="max-w-[810px] mx-auto text-center mb-[52px]">
+                    <h3 class="h2 mb-5">The News about my creations</h3>
+                    <p>To create this pictures, i had to struggle like
+                        a lion. But now they are out and come to admire them.
+                    </p>
+                </div>
+                <!-- grids -->
+                <div class="news__grid grid grid-cols-1 xl:grid-cols-3 gap-[27px]">
+                    <!-- grid_item_1 -->
+                    <div class="news__item1 w-full max-w-[382px] h-[520px]  border border-primary/20
+                                rounded-[62px] p-[20px] pb-[10px] hover:bg-accent-secondary 
+                                transition-all group cursor-pointer mx-auto xl:mx-0 ">
+                        <img class="mb-5" src="assets/news/01.png" alt="">
+                        <div class="flex flex-col gap-[10px]">
+                            <h3 class="h3">Let's find way how to become professional
+                                coder in a kitchen.
+                            </h3>
+                            <div class="flex justify-between items-cente">
+                                <p>11 May, 2024</p>
+                                <button class="bg-accent-secondary h-[50px] w-[50px] rounded-full
+                                        group-hover:bg-white">
+                                    <i class="ri-arrow-right-wide-line text-3xl text-primary pl-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid_item_1 -->
+
+                    <!-- grid_item_2 -->
+                    <div class="news__item2 w-full max-w-[382px] h-[520px]  border border-primary/20
+                                rounded-[62px] p-[20px] pb-[10px] hover:bg-accent-secondary 
+                                transition-all group cursor-pointer mx-auto xl:mx-0 ">
+                        <img class="mb-5" src="assets/news/02.png" alt="">
+                        <div class="flex flex-col gap-[10px]">
+                            <h3 class="h3">Let's find way how to become professional
+                                coder in a kitchen.
+                            </h3>
+                            <div class="flex justify-between items-cente">
+                                <p>01 January, 2024</p>
+                                <button class="bg-accent-secondary h-[50px] w-[50px] rounded-full
+                                        group-hover:bg-white">
+                                    <i class="ri-arrow-right-wide-line text-3xl text-primary pl-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid_item_2 -->
+
+                    <!-- grid_item_3 -->
+                    <div class="news__item3 w-full max-w-[382px] h-[520px]  border border-primary/20
+                                rounded-[62px] p-[20px] pb-[10px] hover:bg-accent-secondary 
+                                transition-all group cursor-pointer mx-auto xl:mx-0 ">
+                        <img class="mb-5" src="assets/news/03.png" alt="">
+                        <div class="flex flex-col gap-[10px]">
+                            <h3 class="h3">Let's find way how to become professional
+                                coder in a kitchen.
+                            </h3>
+                            <div class="flex justify-between items-cente">
+                                <p>14 February, 2024</p>
+                                <button class="bg-accent-secondary h-[50px] w-[50px] rounded-full
+                                        group-hover:bg-white">
+                                    <i class="ri-arrow-right-wide-line text-3xl text-primary pl-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid_item_3 -->
+
+
+                </div>
+                <!-- grid -->
+
+            </div>
+
+        </section>
+        <!-- News -->
+
+        <!-- contact -->
+        <section class="contact mt-[80px] xl:mt-[200px] relative z-20" id="contactMe">
+            <div class="contact_me_div container mx-auto bg-primary sm:rounded-[70px]
+                        py-[80px] flex flex-col 
+                        items-center">
+                <div class="text-center max-w-[640px] ">
+                    <h2 class="h2 text-white mb-4">Do You want to contact Me?</h2>
+                    <p class="text-white mb-8 max-w-none mx-auto">
+                        Contacting me is very simple. Click on the email icon 
+                        or you can also me or join me on my social media
+                        accounts.
+                        <span>I'm not avalable on social media anytime </span>
+                    </p>
+                    <button class="button button-accent mx-auto" >
+                        Hired Me
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+        <!-- contact -->
+
+        <!-- Footer -->
+        <footer class="footer mt-[80px] xl:mt-[200px] relative z-20">
+            <div class="container mx-auto px-0">
+                <div class="flex flex-col xl:flex-row xl:gap-[100px]
+                            xl:mb-[150px]">
+                    <div class="footer__left w-full max-w-[400px]
+                     mx-auto text-center xl:text-left justify-start">
+                        <a href="" class="flex justify-center xl:justify-start
+                                 mb-8">
+                            <img src="assets/logo.svg" alt="#">
+                        </a>
+                        <p>
+                            Before starting this project, I was not able to 
+                            know that to have a nice pictures on a webpage, 
+                            you have to design them first and apply some potoshop.
+                            To have nice animations on the site you have to import 
+                            some libraries from the internet.
+                            Now I can do that without having fear!
+                        </p>
+                        <!-- Socials Medias -->
+                        <ul class="flex flex-col xl:flex-row 
+                                xl:justify-center xl:mx-auto text-primary gap-[40px] items-center">
+                            <li>
+                                <a href="#">
+                                    <i class="ri-facebook-fill"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="ri-youtube-fill"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="ri-instagram-fill"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="ri-linkedin-fill"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="ri-tiktok-fill"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    
+                        <!-- Socials Medias -->
+                    </div>
+                    <div  class="footer__right flex flex-1 justify-center
+                                xl:flex-row xl:text-left gap-12 xl:gap-[100px]
+                                xl:justify-end
+                                 ">
+                        <div class="">
+                            <h3 class="h3 mb-3">Pages</h3>
+                            <ul class="flex flex-col gap-4">
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">About Me</a>
+                                </li>
+                                <li>
+                                    <a href="#">Testimonials</a>
+                                </li>
+                                <li>
+                                    <a href="#">My Work</a>
+                                </li>
+                                <li>
+                                    <a href="#">News About Me</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contats</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer_item">
+                            <h3 class="h3 mb-3">Services</h3>
+                            <ul class="flex flex-col gap-4">
+                                <li>
+                                    <a href="#">Kitchen</a>
+                                </li>
+                                <li>
+                                    <a href="#">Living Area</a>
+                                </li>
+                                <li>
+                                    <a href="#">Bathroom</a>
+                                </li>
+                                <li>
+                                    <a href="#">Bedroom</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_item max-w-[260px] mx-auto xl:mx-0">
+                            <h3 class="h3">Contact</h3>
+                            <div class="flex flex-col gap-6 text-[20px]">
+                                <p>Heckenbühl 8.</p>
+                                <p>Ulm 89079 Ulm, Germany</p>
+                                <p>0049 012 3456789</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="footer__copyright text-center text-lg py-10 xl:border-t">
+                Copyright &copy; Mamadou Saifou Daillo GmbH 2024.
+                All rights reserved.
+            </p>
+        </footer>
+        <!-- Footer -->
+
+
+    </main>
+
+    <!-- Page wrapper -->
+
+
+
+    
+
+
+    <!-- The script from scroll reveal -->
+    <script src="/js/scrollreveal.min.js"></script>
+    <!-- The script from scroll reveal -->
+
+    <!-- swiper -->
+    <script src="/js/swiper-bundle.min.js"></script>
+    <!-- swiper -->
+
+    <!-- The Main script local -->
+    <script src="/javascript/main.js"></script>
+    <!-- The Main script local -->
+</body>
+</html>
