@@ -19,6 +19,11 @@
     <link rel="stylesheet" href="./css_librairies/swiper-bundle.min.css">
     <!-- The css of the swiper -->
 
+    <!-- The script for jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- The script for jquery -->
+    
+
 
     <title>My programming word</title>
 </head>
@@ -675,22 +680,22 @@
                             <h3 class="h3 mb-3">Pages</h3>
                             <ul class="flex flex-col gap-4">
                                 <li>
-                                    <a href="#">Home</a>
+                                    <a class="toscroll" href="#">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#">About Me</a>
+                                    <a class="toscroll" href="#">About Me</a>
                                 </li>
                                 <li>
-                                    <a href="#">Testimonials</a>
+                                    <a class="toscroll" href="#">Testimonials</a>
                                 </li>
                                 <li>
-                                    <a href="#">My Work</a>
+                                    <a class="toscroll"  href="#">My Work</a>
                                 </li>
                                 <li>
-                                    <a href="#">News About Me</a>
+                                    <a class="toscroll" href="#">News About Me</a>
                                 </li>
                                 <li>
-                                    <a href="#">Contats</a>
+                                    <a class="toscroll" href="#">Contats</a>
                                 </li>
                             </ul>
                         </div>
@@ -753,5 +758,16 @@
     <!-- The Main script local -->
     <script src="/javascript/main.js"></script>
     <!-- The Main script local -->
+
+    <!-- The smooth scroll controll -->
+    <script>
+        $("a.toscroll").on("click", function(e) {
+        var url = e.target.href;
+        var hash = url.substring(url.indexOf("#") + 1);
+        $("html, body").animate({ scrollTop: $("#" + hash).offset().top }, 500);
+        return false;
+        });
+    </script>
+    <!-- The smooth scroll controll -->
 </body>
 </html>
